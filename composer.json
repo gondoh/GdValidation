@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "GdValidation\\": "src",
+            "GdValidation\\": "src"
         }
     },
     "require": {}
