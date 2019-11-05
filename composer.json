@@ -1,0 +1,17 @@
+{
+    "name": "gondoh/gd-validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gondoh",
+            "email": "gondoh@gufii.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GdValidation\\": "src",
+        }
+    },
+    "require": {}
+}
