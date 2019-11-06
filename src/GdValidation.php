@@ -1,5 +1,8 @@
 <?php
 namespace GdValidation;
+
+use Exception;
+
 /**
  * gufii framework (https://blog.gufii.net)
  * Copyright 2013 gufii -Just right for you-
@@ -189,7 +192,7 @@ class GdValidation
     {
         $this->charset = $charset;
     }
-	
+
 }
 class GdValidationException extends Exception
 {
@@ -239,4 +242,3 @@ $errors = $validObj->valid();
 
 var_dump($errors);
 */
-?>
